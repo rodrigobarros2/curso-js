@@ -1,13 +1,18 @@
-// Não podemos criar variáveis com palavras reservadas
-// Variáveis precisam ter nomes significativos
-// Não pode começar o nome de uma variável com um número
-// Não podem conter espaços ou traços
-// Utilizamos camelCase
-// Case-sensitive
-// Não podemos redeclarar variáveis com let
-// NÃO UTILIZE VAR, UTILIZE LET.
-let nomeCliente = 'Luiz';
-nomeCliente = 'Otávio';
+/* VAR 0bs: não usar  */
+var name = 'rodrigo'
+var name = 'matheus'
+console.log(name);
+/*  o var pode ser declarado + de uma vez, nunca usar */
 
+/* Let */
+let idade = 10
+idade = 20
+console.log(idade);
+/* o Let só pode ser declarado 1 vez, 
+se quiser alterar não precisa declarar de novo  */
 
-console.log(nomeCliente);
+/* Const */
+const carro = 'celtar'
+carro = 'palio'
+console.log(carro);
+/*  vai da erro, o const não é alterável */
