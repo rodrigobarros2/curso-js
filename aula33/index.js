@@ -11,3 +11,7 @@ const pessoa = {
 // Atribuição via desestruturação
 const { nome, sobrenome, ...resto } = pessoa;
 console.log(nome, resto);
+
+// Método de utilizar o objeto dentro de outro objeto.
+const { endereco: { rua, numero } } = pessoa;
+console.log(rua, numero);
